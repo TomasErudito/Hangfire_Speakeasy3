@@ -105,7 +105,7 @@ body {
 
 .book_btn {
     width: 66%;
-    margin: 10px 10px 10px 0;
+    margin: 10px 10px 10px 0px;
     padding: 0 6px;
     background-color: #c1a138;
     color: #414141;
@@ -276,6 +276,27 @@ body {
 
     .image_loader> :first-child {
         margin-top: -100px;
+    }
+
+    .book_btn {
+        width: 80%;
+        margin: 10px 10px 10px 50px;
+        padding: 0 6px;
+        background-color: #c1a138;
+        color: #414141;
+    }
+
+}
+
+
+@media screen and (min-width: 690px) {
+
+    .book_btn {
+        width: 80%;
+        margin: 10px 10px 10px 20px;
+        padding: 0 6px;
+        background-color: #c1a138;
+        color: #414141;
     }
 
 }
